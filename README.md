@@ -12,8 +12,7 @@
 
 
 ## Project Description
-This is a Movies application that allows the user to browse for various  movies based on their respective genres as well as apply a number of filters. Ratings, movies descriptions and movie duration is also displayed for all the movies available. One is able to like or dislike a movie. A user can watch movie trailers.
-
+This is a movie application that allows the user to search for movies based on their genres and apply a variety of filters.Ratings, movie descriptions, and movie duration are also displayed for all the movies available. One is able to like or dislike a movie. A user can watch movie trailers.
 
 ## Features
 - Browse various movies.
@@ -38,7 +37,6 @@ This is a Figma design of this project.
 - SQLITE
 
 
-
 ## Setup Instructions
 
 ### How to run the application locally on your computer.
@@ -48,6 +46,10 @@ This is a Figma design of this project.
 - Install the app dependacies by running `npm install`
 - Run `npm start`
 - Internet connection is required to run the application successfully.
+
+
+## Link to Back-end Repository
+[Movie Application Back-end](https://github.com/KarenKanana/Movies-Applicaton-Back-end)
 
 
 ## Live Page
