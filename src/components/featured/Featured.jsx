@@ -27,21 +27,17 @@ export default function Featured({ type }) {
       )}
 
       <img 
-        src="https://images.immediate.co.uk/production/volatile/sites/3/2021/06/Manifest_Season_2-abff13d.jpg"
+        src="https://movieevangelist.files.wordpress.com/2014/11/interstellar.jpg"
         alt=""
       />
 
       <div className="info">
         <span className="desc">
-          <h1>MANIFEST</h1>
+          <h1>INTERSTELLAR</h1>
           <br/>
           <h3>SEASON II</h3>
           <br />
-          A commercial airliner suddenly reappears after being 
-          missing for five years.As those aboard reintegrate into
-          society, they experience guiding voices and visions
-          of events yet to occur, and soon a deeper 
-          mystery unfolds.
+          In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand (Michael Caine), a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper (Matthew McConaughey) and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home.
         </span>
         <div className="buttons">
           <button className="play">
