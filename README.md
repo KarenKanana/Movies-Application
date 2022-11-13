@@ -1,4 +1,4 @@
-# My Notes Application
+# Movies Application
 
 ## Table of Contents
 - [Project Description](#project-description)
@@ -12,13 +12,13 @@
 
 
 ## Project Description
-This is a Notes Application that enables the user to store notes for future reference.
+This is a Movies application that allows the user 
 
 
 ## Features
-- Add notes
-- Edit notes
-- Delete notes
+- 
+- 
+- 
 
 ## Technology Used
 - HTML
@@ -32,8 +32,8 @@ This is a Notes Application that enables the user to store notes for future refe
 
 ### How to run the application locally on your computer.
 - Open your terminal.
-- Clone the repository `git clone https://github.com/KarenKanana/My-Notes-Application.git`
-- `cd My-Notes-Application`
+- Clone the repository `git clone `
+- `cd `
 - Install the app dependacies by running `npm install`
 - Run `npm start`
 - Internet connection is required to run the application successfully.
