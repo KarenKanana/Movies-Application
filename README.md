@@ -71,10 +71,11 @@ Copyright (c) 2022 Karen Kanana
 ## Support and contact details
 For any further clarification and support contact:
 
-Emails: kananakaren21@gmail.com
-        earlyosman@gmail.com
-        amosmaundu5@gmail.com
-        allan.kimurgor@student.moringaschool.com
+Emails: 
+- kananakaren21@gmail.com 
+- earlyosman@gmail.com 
+- amosmaundu5@gmail.com
+- allan.kimurgor@student.moringaschool.com
 
 
 
