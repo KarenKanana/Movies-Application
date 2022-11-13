@@ -4,9 +4,9 @@ import {
   Add,
   ThumbUpAltOutlined,
   ThumbDownOutlined,
-  ThumbUpIcon,
-  ThumbDownIcon,
 } from "@material-ui/icons";
+import ThumbUpIcon from '@material-ui/icons/ThumbUp';
+import ThumbDownAltIcon from '@material-ui/icons/ThumbDownAlt';
 import { useState } from "react";
 
 export default function ListItem({ index, img }) {
@@ -15,8 +15,10 @@ export default function ListItem({ index, img }) {
     "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761";
 
   const [liked, setLiked] = useState(false)
+  const [disliked, setDislike] = useState(false)
 
-  const toggleFilledIcon = () => setLiked(!liked)
+  const handleLike = () => setLiked(!liked)
+  const handleDislike = () => setDislike(!disliked)
 
 
   return (
@@ -37,8 +39,14 @@ export default function ListItem({ index, img }) {
             <div className="icons">
               <PlayArrow className="icon" />
               <Add className="icon" />
-              <ThumbUpAltOutlined className="icon" />
-              <ThumbDownOutlined className="icon" />
+              <div onClick={handleLike} >
+              {liked ? <ThumbUpIcon className="icon" style={{ color: "green" }}  /> : <ThumbUpAltOutlined className="icon" /> }
+              </div>
+              
+              <div onClick={handleDislike} >
+                {disliked ? <ThumbDownAltIcon className="icon" color="secondary"  /> : <ThumbDownOutlined className="icon" /> }
+              </div>
+
             </div>
             <div className="itemInfoTop">
               <span>1 hour 14 mins</span>
