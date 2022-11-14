@@ -1,4 +1,7 @@
-# Movies Application
+# PHASE-3 PROJECT
+<br />
+
+# Movies Application - Client-side
 
 ## Table of Contents
 - [Project Description](#project-description)
@@ -53,7 +56,32 @@ This is a Figma design of this project.
 
 
 ## Live Page
->  
+>   Here is live page [Live page](url_here)
+
+
+## Homepage
+
+![Home page](./pages_screenshots/homepage.png)
+
+#### Screenshot_2
+![Home page](./pages_screenshots/homepage2.png)
+
+## Featured page
+### popular and trending
+
+![Featured ](./pages_screenshots/featuedpage.png)
+
+## Register page
+
+![Register page](./pages_screenshots/register_page.png)
+
+## Watch page
+
+![Watch page](./pages_screenshots/watchpage.png)
+
+## Sign in/up page
+
+![Sign page](./pages_screenshots/sign_in.png)
 
 
 ## Copyright and license information
@@ -76,7 +104,3 @@ Emails:
 - earlyosman@gmail.com 
 - amosmaundu5@gmail.com
 - allan.kimurgor@student.moringaschool.com
-
-
-
-    

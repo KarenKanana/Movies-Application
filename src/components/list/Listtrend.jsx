@@ -12,6 +12,17 @@ import {
   
     const listRef = useRef();
 
+    // const trendingMovies = () => {
+//
+//   const [trending, setTrending] = useState([]);
+//     
+//   console.log(trending);
+//   //   fetch("http://localhost:9292/trending_movies")
+//   .then((r) => r.json())
+//   .then((data) => console.log(data));
+//     }, []);
+    
+
   
     const handleClick = (direction) => {
       setIsMoved(true);

@@ -12,6 +12,17 @@ import {
   
     const listRef = useRef();
 
+    // const Popular = () => {
+//
+//   const [popular, setPopular] = useState([]);
+//     
+//   console.log(popular);
+//   //   fetch("http://localhost:9292/popular")
+//   .then((r) => r.json())
+//   .then((data) => console.log(data));
+//     }, []);
+    
+
   
     const handleClick = (direction) => {
       setIsMoved(true);
