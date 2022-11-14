@@ -56,7 +56,7 @@ This is a Figma design of this project.
 
 
 ## Live Page
->   Here is live page [Live page](url_here)
+>   Here is the live page [Live page](https://vercel.com/karenkanana/movies-application)
 
 
 ## Homepage
