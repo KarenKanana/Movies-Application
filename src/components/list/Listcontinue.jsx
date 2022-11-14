@@ -9,9 +9,19 @@ import {
   export default function List() {
     const [isMoved, setIsMoved] = useState(false);
     const [slideNumber, setSlideNumber] = useState(0);
-  
     const listRef = useRef();
 
+
+// const ContinueToWatch = () => {
+//
+//   const [continueToWatch, setContinueToWatch] = useState([]);
+//     
+//   console.log(continueToWatch);
+//   //   fetch("http://localhost:9292/continue_to_watch_movies")
+//   .then((r) => r.json())
+//   .then((data) => console.log(data));
+//     }, []);
+    
   
     const handleClick = (direction) => {
       setIsMoved(true);
